@@ -37,7 +37,7 @@ module.exports = {
           items: [
             {
               label: "Jasen",
-              to: "docs/jasen",
+              to: "docs/jasen/",
             },
             {
               label: "Style Guide",
@@ -76,7 +76,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Jasen Wang, Inc. Built with Burritos.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Jasen Wang, Inc. Built with love. And burritos. Many, many, burritos.`,
     },
   },
   presets: [
