@@ -54,11 +54,11 @@ module.exports = {
             },
             {
               label: "Instagram",
-              href: "#",
+              href: "https://www.instagram.com/jhwang14635/",
             },
             {
               label: "Buy me a coffee",
-              href: "#",
+              href: "https://www.buymeacoffee.com/jasen",
             },
           ],
         },
