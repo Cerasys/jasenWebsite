@@ -1,4 +1,6 @@
 ---
 id: style
-title: This is Document Number 3
+title: Style Guide
+sidebar_label: Style Guide
+slug: /
 ---

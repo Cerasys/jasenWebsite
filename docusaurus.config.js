@@ -1,17 +1,17 @@
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
-  url: "https://your-docusaurus-test-site.com",
+  title: "Jasen Wang",
+  tagline: "Learn, serve, do",
+  url: "https://www.jasenwang.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   favicon: "img/logo.png",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Cerasys", // Usually your GitHub org/user name.
+  projectName: "jasenWebsite", // Usually your repo name.
   themeConfig: {
     navbar: {
       title: "Jasen Wang",
       logo: {
-        alt: "My Site Logo",
+        alt: "Site Logo",
         src: "img/logo.png",
       },
       items: [
@@ -19,14 +19,9 @@ module.exports = {
           to: "docs/",
           activeBasePath: "docs",
           label: "Docs",
-          position: "left",
-        },
-        { to: "blog", label: "Blog", position: "left" },
-        {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
           position: "right",
         },
+        { to: "blog", label: "Blog", position: "right" },
       ],
     },
     footer: {
@@ -62,6 +57,7 @@ module.exports = {
             },
           ],
         },
+        /*
         {
           title: "More",
           items: [
@@ -75,8 +71,9 @@ module.exports = {
             },
           ],
         },
+        */
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Jasen Wang, Inc. Built with love. And burritos. Many, many, burritos.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Jasen Wang. Built with many, many, burritos. 🌯`,
     },
   },
   presets: [
